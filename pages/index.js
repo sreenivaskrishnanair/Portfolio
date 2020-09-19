@@ -58,7 +58,7 @@ export default function index({aboutPage, skillsPage, projects, resume}) {
           <title>Sree UW - Madison</title>
           <link href="/images/logo.ico" rel="shortcut icon" />
           <meta property="og:title" content="Sree UW - Madison"/>
-          <meta property="og:image" content="/images/portfolio-preview.png"/>
+          <meta property="og:image" content="../public/images/preview.png"/>
           <script src="https://kit.fontawesome.com/71759de8ce.js" crossorigin="anonymous"></script>
         </head>
 
