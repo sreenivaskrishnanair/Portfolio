@@ -55,7 +55,7 @@ export default function index({aboutPage, skillsPage, projects, resume}) {
     <div className={`body ${loading} ${isArticleVisible ? "is-article-visible" : ""}`}>
       <div>
         <head>
-          <title>Sion Wilks</title>
+          <title>Sree UW - Madison</title>
           <link href="/images/logo.ico" rel="shortcut icon" />
           <meta property="og:title" content="Sion Wilks" />
           <meta property="og:image" content="/images/portfolio-preview.png" />
