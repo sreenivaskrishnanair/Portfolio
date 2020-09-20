@@ -10,7 +10,7 @@ export default function Article(props) {
                 <h2 className="major">Lane-Detection</h2>
                 <span className="image main"><img src="./images/projects/lane.png" alt="" /></span>
                 <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Simple Algortithm for lane detection in any image and videos. Uses pyhton and OpenCV library to implement functionality. Description of algorithm: breaks down video into frames - processes each frame individually. Converts each frame inmage into gray scale - smoothens out the image - uses Hough Transforms for getting egde image. - isolates area of interest (lanes) - averages out the lane lines and demarcates the lane.
+            Simple Algortithm for lane detection in any image and videos. Uses pyhton and OpenCV library to implement functionality. Description of algorithm: breaks down video into frames - processes each frame individually. Converts each frame in the image into gray scale - smoothens out the image - uses Hough Transforms for getting egde image. - isolates area of interest (lanes) - averages out the lane lines and demarcates the lane.
             </div>
                 <div>
                     <b>Techinal Tools Utilized:</b> <br />
@@ -59,7 +59,7 @@ export default function Article(props) {
             <h2 className="major">Farm Data - Analyzer</h2>
             <span className="image main"><img src="./images/projects/farm.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-              <b>Java</b> application for conducting analysis on the milk data for several farms across the US. The application takes in milk production data of several farms as a CSV file and conducts analytics. It displays yield, tracks change acroos time and generates various reports.
+              <b>Java</b> application for conducting analysis on the milk data for several farms across the US. The application takes in milk production data of several farms as a CSV file and conducts analytics. It displays yield, tracks change across time and generates various reports.
             </div>
             <div>
               <b>Techinal Tools Utilized:</b> <br />
@@ -95,7 +95,7 @@ export default function Article(props) {
             <h2 className="major">Enigma Machine</h2>
             <span className="image main"><img src="./images/projects/enigma.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented complete enigma machine with full encrypt/decrypt capabilities. Can encrypt message of any length. Can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
+            Implemented the complete enigma machine with full encrypt/decrypt capabilities. Can encrypt message of any length. Can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
             </div>
             <div>
               <b>Techinal Tools Utilized:</b> <br />
@@ -123,7 +123,7 @@ export default function Article(props) {
             <h2 className="major">Rock Paper Scissor</h2>
             <span className="image main"><img src="./images/projects/bucky.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented the classic rock, paper, scissors game on the bucky board. Bucky Board is an arduino based programmable board available to students at UW - Madison. Game logic was implemented for rwo players. boards communicate to each other in wirelessly. Implementation in C.
+            Implemented the classic rock, paper, scissors game on the bucky board. Bucky Board is an arduino based programmable board available to students at UW - Madison. Game logic was implemented for two players. The Boards communicate with each other wirelessly. Implementation in C.
             </div>
             <div>
               <b>Techinal Tools Utilized:</b> <br />
@@ -158,7 +158,7 @@ export default function Article(props) {
               <b>Techinal Tools Utilized:</b> <br />
               <ul>
                 <li>Telemetry-DAQ system: Analyze stress and strain on chasis frame</li>
-                <li>Material science: Performed analytics to decide best materials for chasis and type of movinh joints / parts in car.</li>
+                <li>Material science: Performed analytics to decide best materials for chasis and type of moving joints / parts in car.</li>
                 <li>Analytics Tools: programmed in C</li>
               </ul>
             </div>
