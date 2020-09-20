@@ -56,7 +56,7 @@ export default function Main(props) {
       <div>
         <ArticleAbout
           page={props.aboutPage}
-          page2={props.aboutPage.node}
+          // page2={props.aboutPage.node}
           type="about"
           article={props.article}
           articleTimeout={props.articleTimeout}
@@ -75,7 +75,7 @@ export default function Main(props) {
 
         <ArticleProject
           page={props.aboutPage}
-          page2={props.aboutPage.node}
+          // page2={props.aboutPage.node}
           type="projects"
           article={props.article}
           articleTimeout={props.articleTimeout}
@@ -85,7 +85,7 @@ export default function Main(props) {
 
         <ArticleCert
           page={props.aboutPage}
-          page2={props.aboutPage.node}
+          // page2={props.aboutPage.node}
           type="certifications"
           article={props.article}
           articleTimeout={props.articleTimeout}

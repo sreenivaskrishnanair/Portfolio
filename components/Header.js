@@ -14,7 +14,7 @@ const Header = (props) => {
         <div className="inner">
           <h1>sreenivas krishna nair</h1>
           <p>Student at <a href="https://www.wisc.edu">UW - Madison</a> majoring in Computer science and
-                computer engineering.  <br />Excited to explore oppurtunites in full stack development and Deep learning.</p>
+                computer engineering.  <br />Excited to explore oppurtunities in full stack development and Deep learning.</p>
         </div>
       </div>
       <nav>
