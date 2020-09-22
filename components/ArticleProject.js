@@ -45,13 +45,13 @@ export default function Article(props) {
             <h2 className="major">Cat or not</h2>
             <span className="image main"><img src="./images/projects/cat.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Deep learning linear regression Algorithm for detecting if given image is of a cat or not. Takes in a large data set of learning images and decides if the givem image is of a cat or not
+            Deep learning linear regression Algorithm for detecting if a given image is of a cat or not. Takes in an extensive data set of learning images and decides if the given image is of a cat or not.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>Python: Algorithm was written in python</li>
-                <li>Jupyter Notebook: algortim written in jupyter</li>
+                <li>Jupyter Notebook: Algortim written in Jupyter</li>
               </ul>
             </div>
           </article>
@@ -60,10 +60,10 @@ export default function Article(props) {
             <h2 className="major">Farm Data - Analyzer</h2>
             <span className="image main"><img src="./images/projects/farm.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-              <b>Java</b> application for conducting analysis on the milk data for several farms across the US. The application takes in milk production data of several farms as a CSV file and conducts analytics. It displays yield, tracks change across time and generates various reports.
+              <b>Java</b> application that analyzes the milk data for several farms across the US. The application takes in milk production data of several farms as a CSV file and conducts analytics. It displays yield, tracks change across time, and generate various reports.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>Java 13: Implemented Java Stream to filter and manipulate large data.</li>
                 <li>JavaFX : Used to create UI</li>
@@ -78,7 +78,7 @@ export default function Article(props) {
             Personal Portfolio website for displaying projects and provide an easy way to contact me. Implemented a static website using Next.js, Vercel and Prismic. GraphQl used to retrieve data from Prismic. Used SCSS to implement visual effects.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>Next.js: to automate static splitting and rendering</li>
                 <li>Graphql: for database queries from Prismic </li>
@@ -96,10 +96,10 @@ export default function Article(props) {
             <h2 className="major">Enigma Machine</h2>
             <span className="image main"><img src="./images/projects/enigma.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented the complete enigma machine with full encrypt/decrypt capabilities. Can encrypt message of any length. Can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
+            Implemented the complete enigma machine with full encrypt/decrypt capabilities. It can encrypt a message of any length. It can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>C language: Complete machine implemented in C</li>
               </ul>
@@ -110,10 +110,10 @@ export default function Article(props) {
             <h2 className="major">Memory Allocator</h2>
             <span className="image main"><img src="./images/projects/malloc.png" alt="" /></span>
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Simulated low level implementation of Heap memory Allocator. implementation models malloc(size) in C. Allocates size number of bits of memory on the heap and returns memory address of first useable block. Simulates First - Fit, Worst - Fit and Best - Fit policy of allocation with low to zero fragmentation. Memory coalescing implemented.
+            Simulated low-level implementation of Heap Memory Allocator. Implementation models malloc(size) in C. Allocates size number of bits of memory on the heap and returns the memory address of the first useable block. Simulates First - Fit, Worst - Fit and Best - Fit policy of allocation with low to zero fragmentation. Memory coalescing implemented.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>C language: Allocator implemented in C</li>
               </ul>
@@ -127,7 +127,7 @@ export default function Article(props) {
             Implemented the classic rock, paper, scissors game on the bucky board. Bucky Board is an arduino based programmable board available to students at UW - Madison. Game logic was implemented for two players. The Boards communicate with each other wirelessly. Implementation in C.
             </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>C language: game implemented in C</li>
                 <li>Bucky Board: Arduino based programmable board.</li>
@@ -156,7 +156,7 @@ export default function Article(props) {
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
             Helped implement Telementry DAQ system for racing car in the Wisconsin Baja team. DAQs were used to analyze structural stress and strain on the car as it moved through terrain.</div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>Telemetry-DAQ system: Analyze stress and strain on chasis frame</li>
                 <li>Material science: Performed analytics to decide best materials for chasis and type of moving joints / parts in car.</li>
