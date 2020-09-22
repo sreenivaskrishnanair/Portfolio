@@ -10,12 +10,12 @@ export default function Article(props) {
                 <h2 className="major">Lane-Detection</h2>
                 <span className="image main"><img src="./images/projects/lane.png" alt="" /></span>
                 <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Simple Algortithm for lane detection in any image and videos. Uses pyhton and OpenCV library to implement functionality. Description of algorithm: breaks down video into frames - processes each frame individually. Converts each frame in the image into gray scale - smoothens out the image - uses Hough Transforms for getting egde image. - isolates area of interest (lanes) - averages out the lane lines and demarcates the lane.
+                Simple Algorithm for lane detection in any image and videos. Uses Python and OpenCV library to implement the functionality. Description of Algorithm: breaks down the video into frames - processes each frame individually. Converts each frame in the image into grayscale - smoothens out the image - uses Hough Transforms for getting edge image. - isolates the area of interest (lanes) - averages out the lane lines and demarcates the lane
             </div>
                 <div>
-                    <b>Techinal Tools Utilized:</b> <br />
+                    <b>Technical Tools Utilized:</b> <br />
                     <ul>
-                        <li>Python: Algorithm was written in python</li>
+                        <li>Python: The Algorithm was written in Python.</li>
                         <li>OpenCV library: was utilized for frame by frame image manipulation</li>
                     </ul>
                 </div>
@@ -140,7 +140,7 @@ export default function Article(props) {
             <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
             Implemented several data structures as part of programming course. </div>
             <div>
-              <b>Techinal Tools Utilized:</b> <br />
+              <b>Technical Tools Utilized:</b> <br />
               <ul>
                 <li>Java: structures implemented in Java</li>
                 <li>Data Structures: BSTs, red black tree, hash table, maps, graphs, etc</li>
