@@ -25,16 +25,17 @@ export default function Article(props) {
                 <h2 className="major">Social Network</h2>
                 <span className="image main"><img src="./images/projects/model.png" alt="" /></span>
                 <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Full stack web platform that models social media platforms. Uses the MERN stack model to organize the platform. Full social media user experience with user to user chat, cookies, sessions, user to global feed, selective access, etc.(under-development deployement phase)
+                Full-stack web platform that models social media platforms. Uses the MERN stack model to organize the platform. Full social media user experience with user to user chat, cookies, sessions, the user to global feed, selective access, etc.(under-development deployment phase)
             </div>
                 <div>
-                    <b>Techinal Tools Utilized:</b> <br />
+                    <b>Technical Tools Utilized:</b> <br />
                     <ul>
-                        <li>React.js: Front-end UI</li>
+                        <li>React.js: Front-End UI</li>
+                        <li>Redux: (NPM) Global state store</li>
                         <li>Express: Back-End business Logic</li>
                         <li>MongoDB: NoSQL database for storing user information</li>
-                        <li>Node.js: used to achieve backend implementation</li>
-                        <li>Passport.js, MailChimp, etc..... : Several NPM technologies for acheiving full user experience like cookies, session, user to user chat, user to global chat, etc</li>
+                        <li>Node.js: Used to achieve backend implementation</li>
+                        <li>Passport.js, MailChimp, Babel,etc..... : Several NPM technologies for acheiving full user experience like cookies, session, user to user chat, user to global chat, etc</li>
                     </ul>
                 </div>
             </article>
