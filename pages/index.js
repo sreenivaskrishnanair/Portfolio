@@ -1,6 +1,6 @@
 import Head from "next/head";
 import stylesheet from "styles/main.scss";
-import {getAboutPage, getSkillsPage, getAllProjects, getResume} from "../lib/api"
+import { getAboutPage, getSkillsPage, getAllProjects, getResume } from "../lib/api"
 
 import Header from "../components/Header";
 import Main from "../components/Main";
@@ -10,7 +10,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 // You should do that in a Layout file or in `gatsby-browser.js`.
 
 
-export default function index({aboutPage, skillsPage, projects, resume}) {
+export default function index({ aboutPage, skillsPage, projects, resume }) {
   const [isArticleVisible, setIsArticleVisible] = useState(false);
   const [timeout, setTimeout] = useState(false);
   const [articleTimeout, setArticleTimeout] = useState(false);
@@ -57,15 +57,20 @@ export default function index({aboutPage, skillsPage, projects, resume}) {
         <head>
           <title>Sree UW - Madison</title>
           <link href="/images/logo.ico" rel="shortcut icon" />
-          <meta property="og:title" content="Sree UW - Madison"/>
-          <meta property="og:image" content="../public/images/preview.png"/>
+          <meta property="og:title" content="Sree UW - Madison" />
+          <meta property="og:image" content="../public/images/preview.png" />
           <script src="https://kit.fontawesome.com/71759de8ce.js" crossorigin="anonymous"></script>
         </head>
 
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
         <div id="wrapper">
-          <Header onOpenArticle={handleOpenArticle} timeout={timeout} resume={resume}/>
+          <a href="http://134.122.124.136:8080" style={{
+             position: "absolute",
+            top: 10,
+            right: 10,
+          }}><i className="fas fa-cog" aria-hidden="true"></i></a>
+          <Header onOpenArticle={handleOpenArticle} timeout={timeout} resume={resume} />
           <Main
             isArticleVisible={isArticleVisible}
             timeout={timeout}
@@ -79,7 +84,7 @@ export default function index({aboutPage, skillsPage, projects, resume}) {
           <Footer timeout={timeout} />
         </div>
 
-        <div id="bg"/>
+        <div id="bg" />
       </div>
     </div>
   );
@@ -93,14 +98,14 @@ export async function getStaticProps() {
   const resume = await getResume();
   //console.log("skillsPage", skillsPage);
 
-  
+
   return {
     props: {
       aboutPage,
       skillsPage,
       projects,
       resume
-     
+
     },
   };
 }
