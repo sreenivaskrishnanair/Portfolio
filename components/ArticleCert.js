@@ -11,6 +11,7 @@ export default function Article(props) {
                     <li>SQL, Stanford University (Lagunita)</li>
                     <li>The Complete 2020 Web Development Course (Udemy)</li>
                     <li>The Complete Strapi Course (Udemy)</li>
+                    <li>JPMorgan Chase Software Engineering Virtual Experience (Forage)</li>
                     <li>Deep Learning Specialization, Stanford University (Andrew NG) expected-Dec2020</li>
                 </ul>
             </div>
