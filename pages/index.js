@@ -65,11 +65,11 @@ export default function index({ aboutPage, skillsPage, projects, resume }) {
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
         <div id="wrapper">
-          <a href="http://134.122.124.136:8080" style={{
+          {/* <a href="http://134.122.124.136:8080" style={{
              position: "absolute",
             top: 10,
             right: 10,
-          }}><i className="fas fa-cog" aria-hidden="true"></i></a>
+          }}><i className="fas fa-cog" aria-hidden="true"></i></a> */}
           <Header onOpenArticle={handleOpenArticle} timeout={timeout} resume={resume} />
           <Main
             isArticleVisible={isArticleVisible}
