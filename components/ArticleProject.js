@@ -8,7 +8,7 @@ export default function Article(props) {
 
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
         <h2 className="major">Lane-Detection</h2>
-        <span className="image main"><img src="./images/projects/lane.png" alt="" /></span>
+        <span className="image main"><img src="./images/projects/.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
                 Simple Algorithm for lane detection in any image and videos. Uses Python and OpenCV library to implement the functionality. Description of Algorithm: breaks down the video into frames - processes each frame individually. Converts each frame in the image into grayscale - smoothens out the image - uses Hough Transforms for getting edge image. - isolates the area of interest (lanes) - averages out the lane lines and demarcates the lane
             </div>
@@ -56,23 +56,7 @@ export default function Article(props) {
         </div>
       </article>
       <br />
-      {/* <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
-        <h2 className="major">Integrated dev env</h2>
-        <span className="image main"><img src="./images/projects/vs.png" alt="" /></span>
-        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Integrated development environment for accessing VScode in browser. Ability to render server side vs code to code on any device. Implemented Coder Enterprise for large computing power with Kubernetes cluster deployed on AWS (free tier). Allows me to code, compile, execute on any device with internet connection including ipad, iphone, etc
-            </div>
-        <div>
-          <b>Technical Tools Utilized:</b> <br />
-          <ul>
-            <li>Coder Enterprise: VScode in browser</li>
-            <li>AWS Kubernetes: for enterprise scale deployement</li>
-            <li>GIT: Integrated with VScode</li>
-            <li>Ubuntu 18.04: Server</li>
-          </ul>
-        </div>
-      </article>
-      <br /> */}
+      
       <article id="projects" className={`${props.article === 'projects' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}>
         <h2 className="major">Farm Data - Analyzer</h2>
         <span className="image main"><img src="./images/projects/farm.png" alt="" /></span>
@@ -88,6 +72,7 @@ export default function Article(props) {
         </div>
       </article>
       <br />
+      
       <article id="projects" className={`${props.article === 'projects' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
         <h2 className="major">Personal Website</h2>
         <span className="image main"><img src="./images/projects/website.png" alt="" /></span>
