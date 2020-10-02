@@ -8,7 +8,7 @@ export default function Article(props) {
 
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
         <h2 className="major">Lane-Detection</h2>
-        <span className="image main"><img src="./images/projects/.png" alt="" /></span>
+        <span className="image main"><img src={require('./images/projects/lane.png')} alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
                 Simple Algorithm for lane detection in any image and videos. Uses Python and OpenCV library to implement the functionality. Description of Algorithm: breaks down the video into frames - processes each frame individually. Converts each frame in the image into grayscale - smoothens out the image - uses Hough Transforms for getting edge image. - isolates the area of interest (lanes) - averages out the lane lines and demarcates the lane
             </div>
