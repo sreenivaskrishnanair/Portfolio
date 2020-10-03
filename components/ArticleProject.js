@@ -56,6 +56,8 @@ export default function Article(props) {
         </div>
       </article>
       <br />
+
+      
       
       <article id="projects" className={`${props.article === 'projects' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}>
         <h2 className="major">Farm Data - Analyzer</h2>
@@ -89,6 +91,25 @@ export default function Article(props) {
             <li>Vercel: Deployment service</li>
             <li>SCSS: Visual effect rendering</li>
             <li>EmailJS: set up email service</li>
+          </ul>
+        </div>
+      </article>
+      <br />
+
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">Coding environment</h2>
+        <span className="image main"><img src={require('./images/projects/kuber.png')} alt="" /></span>
+        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+        Implemented a platformless integrated coding environment hosted on an Amazon Kubernetes cluster. Uses the enterprise implementation of Coder to access the VScode server through any web browser. It is also connected to my Github. It allows me to develop and code on any device with a web browser like iPad, phone, etc without loss of performance capabilities. Also give me an easily accessible server to ssh into. 
+            </div>
+        <div>
+          <b>Technical Tools Utilized:</b> <br />
+          <ul>
+            <li>Ubuntu: server that hosts files/ allow git connection</li>
+            <li>(Enterpirse) Code: allow coding on any browser, by using VScode server.</li>
+            <li>VSCode-server: code</li>
+            <li>AWS Kubernetes: Host server</li>
+            <li>Access control on 134.122.124.136: (level 6 password protected - invisible except for me)</li>
           </ul>
         </div>
       </article>
