@@ -10,7 +10,7 @@ export default function Article(props) {
 
 
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
-        <h2 className="major">AR fire-Fighter assist</h2>
+        <h2 className="major">Research Intern</h2>
         <span className="image main"><img src={require('./images/projects/firefighter.jpeg')} alt="" /></span>
         <div>Directed Research Study under Professor <b><a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a></b> and Research Assistant
         <b><a href="https://pages.cs.wisc.edu/~hartung/"> Lance Hartung</a></b> with team member <b><a href="https://www.linkedin.com/in/yingze-hou-1630971b1/"> Yingze Hou.</a></b>
@@ -18,7 +18,7 @@ export default function Article(props) {
         <br/>
         <div style={{ textAlign: "justify" }}><b>Main Project Description:</b><br />
 
-        Develop Augmented Reality (AR) assist goggles for firefighters. The goggles would help firefighters navigate rugged, uncertain terrain in low visibility conditions and render a 3D map of the area that other firefighters following them can use. The goggles would highlight exits and fire safety equipment like fire extinguishers in the firefighter's field of vision and save objects of interest in the firefighter's visual field.
+        Augmented Reality (AR) assist goggles for firefighters. The goggles would help firefighters navigate rugged, uncertain terrain in low visibility conditions and render a 3D map of the area that other firefighters following them can use. The goggles would highlight exits and fire safety equipment like fire extinguishers in the firefighter's field of vision and save objects of interest in the firefighter's visual field.
 
         </div>
         <br />
@@ -33,6 +33,24 @@ export default function Article(props) {
             <li>Python: The Algorithm was written in Python.</li>
             <li>U-net: Inspired Neural Network</li>
             <li>Pytorch: tensor library was Utilized</li>
+          </ul>
+        </div>
+      </article>
+      <br />
+
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">Engineering Intern</h2>
+        <span className="image main"><img src={require('./images/projects/dell2.jpeg')} alt="" /></span>
+        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+        Worked alongside Dell associates in an Agile Kanban workflow setting in the Shared Component Office (SCO) of the Infrastructure Solutions Group (ISG). Built the JIRA Integration infrastructure for the SCO portal. It drastically reduced manual labor, eliminated data inconsistencies, and sped up Shared Intellectual Property (SIP) identification throughout DELL/EMC. Got real world Git/Gerrit experience and learned Functional programming and unbundled databases in a limited time frame.
+        </div>
+        <div>
+          <b>Technical Tools Utilized:</b> <br />
+          <ul>
+            <li>Clojure (LISP): functional programming language </li>
+            <li>JIRA: backend API development</li>
+            <li>Unbundled Database: data for SCO portal was stored in unbundled database</li>
+            <li>Gerrit: for code quality control</li>
           </ul>
         </div>
       </article>
