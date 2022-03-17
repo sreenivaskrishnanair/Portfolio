@@ -1,17 +1,75 @@
 export default function Article(props) {
 
   return (
+
+
     <article
       id={props.id}
       className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}
       style={{ display: "none", backgroundColor: "transparent" }}>
 
+
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">VR figher Fighter assist</h2>
+        <span className="image main"><img src={require('./images/projects/firefighter.jpeg')} alt="" /></span>
+        <div>Directed Study under Professor <a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a> and</div>
+        <br/>
+        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+
+          Application Specific Integrated Circuit (ASIC).
+          Designed and developed custom hardware for robot that would perform the knights tour on a chessboard track.
+          The hardware was designed to minimize area and maximize response time. The designed was piplined to increase
+          instruction throughput. The instruction to perform the Knight's tour was relayed through a bluetooth system, and the
+          design was loaded on to a FPGA (50 MHz FPGA (Cyclone IV)).
+
+
+        </div>
+        <div>
+          <b>Technical Tools Utilized:</b> <br />
+          <ul>
+            <li>ModelSim (Verilog): ModelSim is a multi-language environment by Mentor Graphics, for simulation of hardware description language Verilog</li>
+            <li>Mems Gyro: Utilized for maintaining robot orientation</li>
+            <li>SPI (Serial Peripheral Interface) protocol: High speed data streaming</li>
+            <li>PID (Proportional Integral Derivative) controller: For motor drive</li>
+
+          </ul>
+        </div>
+      </article>
+      <br />
+
+
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">Knights Tour Robot</h2>
+        <span className="image main"><img src={require('./images/projects/knightstour.jpg')} alt="" /></span>
+        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+
+          Application Specific Integrated Circuit (ASIC).
+          Designed and developed custom hardware for robot that would perform the knights tour on a chessboard track.
+          The hardware was designed to minimize area and maximize response time. The designed was piplined to increase
+          instruction throughput. The instruction to perform the Knight's tour was relayed through a bluetooth system, and the
+          design was loaded on to a FPGA (50 MHz FPGA (Cyclone IV)).
+
+
+        </div>
+        <div>
+          <b>Technical Tools Utilized:</b> <br />
+          <ul>
+            <li>ModelSim (Verilog): ModelSim is a multi-language environment by Mentor Graphics, for simulation of hardware description language Verilog</li>
+            <li>Mems Gyro: Utilized for maintaining robot orientation</li>
+            <li>SPI (Serial Peripheral Interface) protocol: High speed data streaming</li>
+            <li>PID (Proportional Integral Derivative) controller: For motor drive</li>
+
+          </ul>
+        </div>
+      </article>
+      <br />
+
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
         <h2 className="major">Lane-Detection</h2>
         <span className="image main"><img src={require('./images/projects/lane.png')} alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-                Simple Algorithm for lane detection in any image and videos. Uses Python and OpenCV library to implement the functionality. Description of Algorithm: breaks down the video into frames - processes each frame individually. Converts each frame in the image into grayscale - smoothens out the image - uses Hough Transforms for getting edge image. - isolates the area of interest (lanes) - averages out the lane lines and demarcates the lane
-            </div>
+          Simple Algorithm for lane detection in any image and videos. Uses Python and OpenCV library to implement the functionality. Description of Algorithm: breaks down the video into frames - processes each frame individually. Converts each frame in the image into grayscale - smoothens out the image - uses Hough Transforms for getting edge image. - isolates the area of interest (lanes) - averages out the lane lines and demarcates the lane
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -25,8 +83,8 @@ export default function Article(props) {
         <h2 className="major">Social Network</h2>
         <span className="image main"><img src="./images/projects/model.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-                Full-stack web platform that models social media platforms. Uses the MERN stack model to organize the platform. Full social media user experience with user to user chat, cookies, sessions, the user to global feed, selective access, etc.(under-development deployment phase)
-            </div>
+          Full-stack web platform that models social media platforms. Uses the MERN stack model to organize the platform. Full social media user experience with user to user chat, cookies, sessions, the user to global feed, selective access, etc.(under-development deployment phase)
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -45,8 +103,8 @@ export default function Article(props) {
         <h2 className="major">Cat or not</h2>
         <span className="image main"><img src="./images/projects/cat.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Deep learning linear regression Algorithm for detecting if a given image is of a cat or not. Takes in an extensive data set of learning images and decides if the given image is of a cat or not.
-            </div>
+          Deep learning linear regression Algorithm for detecting if a given image is of a cat or not. Takes in an extensive data set of learning images and decides if the given image is of a cat or not.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -57,14 +115,33 @@ export default function Article(props) {
       </article>
       <br />
 
-      
-      
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">Activity Recognition</h2>
+        <span className="image main"><img src={require('./images/projects/template.png')} alt="" /></span>
+        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+
+          Human Activity Recognition (HAR) project under professor Umit Ogras for class ECE555. Full custom layout of a simple
+          neural network. And post layout simulation with parasitics.
+
+        </div>
+        <div>
+          <b>Technical Tools Utilized:</b> <br />
+          <ul>
+            <li>Virtuoso Layout Suite (Cadence): For custom IC layout.</li>
+            <li>Verilog: HDL for design specification</li>
+          </ul>
+        </div>
+      </article>
+      <br />
+
+
+
       <article id="projects" className={`${props.article === 'projects' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}>
         <h2 className="major">Farm Data - Analyzer</h2>
         <span className="image main"><img src="./images/projects/farm.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
           <b>Java</b> application that analyzes the milk data for several farms across the US. The application takes in milk production data of several farms as a CSV file and conducts analytics. It displays yield, tracks change across time, and generate various reports.
-            </div>
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -74,13 +151,13 @@ export default function Article(props) {
         </div>
       </article>
       <br />
-      
+
       <article id="projects" className={`${props.article === 'projects' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
         <h2 className="major">Personal Website</h2>
         <span className="image main"><img src="./images/projects/website.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Personal Portfolio website for displaying projects and provide an easy way to contact me. Implemented a static website using Next.js, Vercel and Prismic. GraphQl used to retrieve data from Prismic. Used SCSS to implement visual effects.
-            </div>
+          Personal Portfolio website for displaying projects and provide an easy way to contact me. Implemented a static website using Next.js, Vercel and Prismic. GraphQl used to retrieve data from Prismic. Used SCSS to implement visual effects.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -100,8 +177,8 @@ export default function Article(props) {
         <h2 className="major">Coding environment</h2>
         <span className="image main"><img src={require('./images/projects/kuber.png')} alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-        Implemented a platformless integrated coding environment hosted on an Amazon Kubernetes cluster. Uses the enterprise implementation of Coder to access the VScode server through any web browser. It is also connected to my Github. It allows me to develop and code on any device with a web browser like iPad, phone, etc without loss of performance capabilities. Also give me an easily accessible server to ssh into. 
-            </div>
+          Implemented a platformless integrated coding environment hosted on an Amazon Kubernetes cluster. Uses the enterprise implementation of Coder to access the VScode server through any web browser. It is also connected to my Github. It allows me to develop and code on any device with a web browser like iPad, phone, etc without loss of performance capabilities. Also give me an easily accessible server to ssh into.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -119,8 +196,8 @@ export default function Article(props) {
         <h2 className="major">Enigma Machine</h2>
         <span className="image main"><img src="./images/projects/enigma.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented the complete enigma machine with full encrypt/decrypt capabilities. It can encrypt a message of any length. It can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
-            </div>
+          Implemented the complete enigma machine with full encrypt/decrypt capabilities. It can encrypt a message of any length. It can also encrypt/decrypt to several rotor levels. Highly efficient code as it is written in C.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -133,8 +210,8 @@ export default function Article(props) {
         <h2 className="major">Memory Allocator</h2>
         <span className="image main"><img src="./images/projects/malloc.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Simulated low-level implementation of Heap Memory Allocator. Implementation models malloc(size) in C. Allocates size number of bits of memory on the heap and returns the memory address of the first useable block. Simulates First - Fit, Worst - Fit and Best - Fit policy of allocation with low to zero fragmentation. Memory coalescing implemented.
-            </div>
+          Simulated low-level implementation of Heap Memory Allocator. Implementation models malloc(size) in C. Allocates size number of bits of memory on the heap and returns the memory address of the first useable block. Simulates First - Fit, Worst - Fit and Best - Fit policy of allocation with low to zero fragmentation. Memory coalescing implemented.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -147,8 +224,8 @@ export default function Article(props) {
         <h2 className="major">Rock Paper Scissor</h2>
         <span className="image main"><img src="./images/projects/bucky.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented the classic rock, paper, scissors game on the bucky board. Bucky Board is an arduino based programmable board available to students at UW - Madison. Game logic was implemented for two players. The Boards communicate with each other wirelessly. Implementation in C.
-            </div>
+          Implemented the classic rock, paper, scissors game on the bucky board. Bucky Board is an arduino based programmable board available to students at UW - Madison. Game logic was implemented for two players. The Boards communicate with each other wirelessly. Implementation in C.
+        </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -162,7 +239,7 @@ export default function Article(props) {
         <h2 className="major">Data Structures</h2>
         <span className="image main"><img src="./images/projects/data.jpg" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Implemented several data structures as part of programming course. </div>
+          Implemented several data structures as part of programming course. </div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
@@ -177,7 +254,7 @@ export default function Article(props) {
         <h2 className="major">Telemetry</h2>
         <span className="image main"><img src="./images/projects/baja.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-            Helped implement Telementry DAQ system for racing car in the Wisconsin Baja team. DAQs were used to analyze structural stress and strain on the car as it moved through terrain.</div>
+          Helped implement Telementry DAQ system for racing car in the Wisconsin Baja team. DAQs were used to analyze structural stress and strain on the car as it moved through terrain.</div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
