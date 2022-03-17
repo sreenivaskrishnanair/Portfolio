@@ -9,19 +9,20 @@ export default function Article(props) {
       style={{ display: "none", backgroundColor: "transparent" }}>
 
 
-      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
-        <h2 className="major">VR figher Fighter assist</h2>
+      {/* <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">VR fire-Fighter assist</h2>
         <span className="image main"><img src={require('./images/projects/firefighter.jpeg')} alt="" /></span>
-        <div>Directed Study under Professor <a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a> and</div>
+        <div>Directed Research Study under Professor <b><a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a></b> and research assistant
+        <b><a href="https://pages.cs.wisc.edu/~hartung/"> Lance Hartung.</a></b>
+        </div>
         <br/>
-        <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
+        <div style={{ textAlign: "justify" }}><b>Main Project Description:</b><br />
 
           Application Specific Integrated Circuit (ASIC).
           Designed and developed custom hardware for robot that would perform the knights tour on a chessboard track.
           The hardware was designed to minimize area and maximize response time. The designed was piplined to increase
           instruction throughput. The instruction to perform the Knight's tour was relayed through a bluetooth system, and the
           design was loaded on to a FPGA (50 MHz FPGA (Cyclone IV)).
-
 
         </div>
         <div>
@@ -35,7 +36,7 @@ export default function Article(props) {
           </ul>
         </div>
       </article>
-      <br />
+      <br /> */}
 
 
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
