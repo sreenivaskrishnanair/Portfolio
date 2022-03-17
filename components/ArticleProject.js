@@ -9,34 +9,34 @@ export default function Article(props) {
       style={{ display: "none", backgroundColor: "transparent" }}>
 
 
-      {/* <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
-        <h2 className="major">VR fire-Fighter assist</h2>
+      <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
+        <h2 className="major">AR fire-Fighter assist</h2>
         <span className="image main"><img src={require('./images/projects/firefighter.jpeg')} alt="" /></span>
-        <div>Directed Research Study under Professor <b><a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a></b> and research assistant
-        <b><a href="https://pages.cs.wisc.edu/~hartung/"> Lance Hartung.</a></b>
+        <div>Directed Research Study under Professor <b><a href="https://pages.cs.wisc.edu/~suman/">Suman Bannerjee</a></b> and Research Assistant
+        <b><a href="https://pages.cs.wisc.edu/~hartung/"> Lance Hartung</a></b> with team member <b><a href="https://www.linkedin.com/in/yingze-hou-1630971b1/"> Yingze Hou.</a></b>
         </div>
         <br/>
         <div style={{ textAlign: "justify" }}><b>Main Project Description:</b><br />
 
-          Application Specific Integrated Circuit (ASIC).
-          Designed and developed custom hardware for robot that would perform the knights tour on a chessboard track.
-          The hardware was designed to minimize area and maximize response time. The designed was piplined to increase
-          instruction throughput. The instruction to perform the Knight's tour was relayed through a bluetooth system, and the
-          design was loaded on to a FPGA (50 MHz FPGA (Cyclone IV)).
+        Develop Augmented Reality (AR) assist goggles for firefighters. The goggles would help firefighters navigate rugged, uncertain terrain in low visibility conditions and render a 3D map of the area that other firefighters following them can use. The goggles would highlight exits and fire safety equipment like fire extinguishers in the firefighter's field of vision and save objects of interest in the firefighter's visual field.
 
         </div>
+        <br />
+        <div style={{ textAlign: "justify" }}><b>Sub Task (Yingze Hou and I worked on):</b><br />
+        Research in computer vision. We designed and trained a neural network from scratch for multi-class semantic segmentation and object recognition. It was inspired by the U-net model neural network. We engaged in data collection, data cleaning, model fitting, model training, model evaluation, and parameter tuning to achieve this (machine learning paradigm).
+        </div>
+
+        <br/>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
-            <li>ModelSim (Verilog): ModelSim is a multi-language environment by Mentor Graphics, for simulation of hardware description language Verilog</li>
-            <li>Mems Gyro: Utilized for maintaining robot orientation</li>
-            <li>SPI (Serial Peripheral Interface) protocol: High speed data streaming</li>
-            <li>PID (Proportional Integral Derivative) controller: For motor drive</li>
-
+            <li>Python: The Algorithm was written in Python.</li>
+            <li>U-net: Inspired Neural Network</li>
+            <li>Pytorch: tensor library was Utilized</li>
           </ul>
         </div>
       </article>
-      <br /> */}
+      <br />
 
 
       <article id="projects" className={`${props.article === props.type ? "active" : ""} ${props.articleTimeout ? "timeout" : ""} `}>
@@ -255,7 +255,7 @@ export default function Article(props) {
         <h2 className="major">Telemetry</h2>
         <span className="image main"><img src="./images/projects/baja.png" alt="" /></span>
         <div style={{ textAlign: "justify" }}><b>Project Description:</b><br />
-          Helped implement Telementry DAQ system for racing car in the Wisconsin Baja team. DAQs were used to analyze structural stress and strain on the car as it moved through terrain.</div>
+          (Learning from team) Helped implement Telementry DAQ system for racing car in the Wisconsin Baja team. DAQs were used to analyze structural stress and strain on the car as it moved through terrain.</div>
         <div>
           <b>Technical Tools Utilized:</b> <br />
           <ul>
