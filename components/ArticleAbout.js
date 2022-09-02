@@ -6,7 +6,7 @@ export default function Article(props) {
       style={{ display: "none" }}
     >
       <h2 className="major">About Me</h2>
-      <span className="image main"><img src="./images/profile.jpg" alt="" /></span>
+      <span className="image main"><img src="./images/profile.jpeg" alt="" /></span>
       <div style={{ textAlign: "justify" }}>
             <ul>
               <li>I’m an undergraduate student at the University of Wisconsin – Madison, double majoring in Computer Science and Computer Engineering. I expect to graduate in Dec 2022.</li>
